@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <h1>Tarun Shettigar</h1>
+        </div>
+        <div class="menu-toggle" id="menu-toggle">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#resume" class="nav-link">Resume</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li>
+            <button id="theme-toggle" aria-label="Toggle theme">
+              <i class="fas fa-moon"></i>
+              <i class="fas fa-sun"></i>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Hi, I'm <span class="gradient-text">Tarun</span></h1>
+        <h2>Frontend Web Developer</h2>
+        <p>Creating modern and responsive websites with HTML, CSS, and JavaScript</p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn btn-primary">Get In Touch</a>
+          <a href="#about" class="btn btn-secondary">Learn More</a>
+        </div>
+        <div class="social-icons">
+          <a href="https://github.com" target="_blank" aria-label="GitHub Profile">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://linkedin.com/in/tarun-shettigar-ba6498275" target="_blank" aria-label="LinkedIn Profile">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://twitter.com/Tarun_eth7" target="_blank" aria-label="Twitter Profile">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://instagram.com/tarun.eth" target="_blank" aria-label="Instagram Profile">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <div class="section-header">
+        <h2>About Me</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="about-content">
+        <div class="about-text">
+          <p>I'm a passionate frontend web developer specializing in creating beautiful, functional, and responsive websites. I focus on writing clean, efficient, and maintainable code.</p>
+          <p>My expertise lies in HTML, CSS, and JavaScript. I enjoy solving complex problems and bringing designs to life through code. I'm constantly learning and staying up-to-date with the latest web technologies and best practices.</p>
+          <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying outdoor activities.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <div class="section-header">
+        <h2>My Skills</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="skills-content">
+        <div class="skill-category">
+          <h3>Frontend Development</h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-html5"></i>
+              </div>
+              <h4>HTML5</h4>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="90"></div>
+              </div>
+              <span class="skill-percentage">90%</span>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-css3-alt"></i>
+              </div>
+              <h4>CSS3</h4>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="85"></div>
+              </div>
+              <span class="skill-percentage">85%</span>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-js"></i>
+              </div>
+              <h4>JavaScript</h4>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="80"></div>
+              </div>
+              <span class="skill-percentage">80%</span>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fas fa-mobile-alt"></i>
+              </div>
+              <h4>Responsive Design</h4>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="85"></div>
+              </div>
+              <span class="skill-percentage">85%</span>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fas fa-universal-access"></i>
+              </div>
+              <h4>Web Accessibility</h4>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="75"></div>
+              </div>
+              <span class="skill-percentage">75%</span>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fas fa-search"></i>
+              </div>
+              <h4>SEO Basics</h4>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="70"></div>
+              </div>
+              <span class="skill-percentage">70%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="resume">
+    <div class="container">
+      <div class="section-header">
+        <h2>My Resume</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="resume-content">
+        <div class="resume-download">
+          <p>Here's a summary of my education. For a complete resume, feel free to download it.</p>
+          <a href="/TARUN.pdf" class="btn btn-primary" target="_blank">
+            <i class="fas fa-download"></i> Download Resume
+          </a>
+        </div>
+
+        <div class="education">
+          <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+          
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h4>Bachelor of Computer Application</h4>
+                <p class="timeline-date">2022 - 2025</p>
+                <p class="timeline-institution">Mangalore University</p>
+                <p>Specialized in Web Development with focus on frontend technologies.</p>
+              </div>
+            </div>
+            
+            <!-- <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h4>B.S. in Computer Science</h4>
+                <p class="timeline-date">2009 - 2013</p>
+                <p class="timeline-institution">State University</p>
+                <p>Graduated with honors. Completed coursework in programming, data structures, and web development.</p>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="certifications">
+    <div class="container">
+      <div class="section-header">
+        <h2>Certifications</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="certifications-content">
+        <div class="certifications-grid" id="certifications-grid">
+          <!-- Certification items will be added here -->
+          <div class="certification-item">
+            <div class="certification-icon">
+              <i class="fas fa-certificate"></i>
+            </div>
+            <div class="certification-details">
+              <h4>AI for Beginners Course</h4>
+              <p class="certification-issuer">Udemy</p>
+              <p class="certification-date">2023</p>
+              <a href="/AI.jpg" class="certification-link" target="_blank">View Certificate</a>
+            </div>
+          </div>
+
+          <div class="certification-item">
+            <div class="certification-icon">
+              <i class="fas fa-certificate"></i>
+            </div>
+            <div class="certification-details">
+              <h4>Python using AI</h4>
+              <p class="certification-issuer">freeCodeCamp</p>
+              <p class="certification-date">2022</p>
+              <a href="/PythonAI.jpg" class="certification-link" target="">View Certificate</a>
+            </div>
+          </div>
+
+          <!-- <div class="certification-item">
+            <div class="certification-icon">
+              <i class="fas fa-certificate"></i>
+            </div> -->
+            <!-- <div class="certification-details">
+              <h4>HTML & CSS Mastery</h4>
+              <p class="certification-issuer">Coursera</p>
+              <p class="certification-date">2021</p>
+              <a href="#" class="certification-link">View Certificate</a>
+            </div> -->
+          </div>
+
+          <!-- Add Certification Button -->
+          <!-- <div class="add-certification-placeholder">
+            <button id="add-certification-btn" class="add-certification-btn">
+              <i class="fas fa-plus"></i>
+              <span>Add New Certificate</span>
+            </button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2>Get In Touch</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="contact-content">       
+        <div class="contact-info">
+          <div class="contact-info-header">
+            <h3>Contact Information</h3>
+          </div>
+          <div class="contact-info-content" >
+            <div class="contact-info-item">
+              <div class="contact-info-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div>
+                <h4>Location</h4>
+                <p>Udupi,Karnataka</p>
+              </div>
+            </div>
+            
+            <div class="contact-info-item">
+              <div class="contact-info-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div>
+                <h4>Email</h4>
+                <a href="mailto:mail4tarunshettigar@gmail.com">mail4tarunshettigar@gmail.com</a>
+              </div>
+            </div>
+            
+           <!-- <div class="contact-info-item">
+              <div class="contact-info-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div>
+                <h4>Phone</h4>
+                <a href="tel:+11234567890">(123) 456-7890</a>
+              </div> 
+            </div> 
+          </div> -->
+          
+          <div class="contact-social">
+            <h4>Follow Me</h4>
+            <div class="social-icons">
+              <a href="https://github.com" target="_blank" aria-label="GitHub Profile">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://linkedin.com/in/tarun-shettigar-ba6498275" target="_blank" aria-label="LinkedIn Profile">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="https://twitter.com/Tarun_eth7" target="_blank" aria-label="Twitter Profile">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://instagram.com/tarun.eth" target="_blank" aria-label="Instagram Profile">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+          
+          <div class="contact-availability">
+            <h4>Availability</h4>
+            <p>I'm currently a student. Open to part-time roles.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h2>Tarun Shettigar</h2>
+          <p>Frontend Web Developer</p>
+        </div>
+        <div class="footer-links">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <div class="social-icons">
+            <a href="https://github.com" target="_blank" aria-label="GitHub Profile">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn Profile">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" aria-label="Twitter Profile">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank" aria-label="Instagram Profile">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> Tarun Shettigar. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Certification Form Modal -->
+  <div id="certification-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <h3>Add New Certificate</h3>
+      <form id="add-certification-form">
+        <div class="form-group">
+          <label for="cert-name">Certificate Name</label>
+          <input type="text" id="cert-name" name="cert-name" required>
+        </div>
+        <div class="form-group">
+          <label for="cert-issuer">Issuing Organization</label>
+          <input type="text" id="cert-issuer" name="cert-issuer" required>
+        </div>
+        <div class="form-group">
+          <label for="cert-date">Issue Date</label>
+          <input type="text" id="cert-date" name="cert-date" placeholder="e.g., 2023" required>
+        </div>
+        <div class="form-group">
+          <label for="cert-link">Certificate Link (Optional)</label>
+          <input type="url" id="cert-link" name="cert-link" placeholder="https://...">
+        </div>
+        <button type="submit" class="btn btn-primary">Add Certificate</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
